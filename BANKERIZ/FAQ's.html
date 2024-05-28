@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="x-icon" href="PgCc/NEWLOGO.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ's</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .faq-section {
+      padding: 60px 0;
+    }
+    .faq-header {
+      background: #343a40;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+    .faq-body {
+      padding: 20px;
+      border: 1px solid #343a40;
+      border-top: none;
+      border-radius: 0 0 5px 5px;
+    }
+    body {
+      padding-top: 100px; /* FOR VISIBILITY*/
+      background: linear-gradient(rgb(0, 65, 185), rgb(13, 166, 255));
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;   
+    }
+    .navbar-brand{
+      font-size: 200%;
+      font-weight:bolder;
+    }
+    .form-group{
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+    <div class="container">
+      <a calss="navbar-brand" href="#">
+        <img src="PgCc/favicon-32x32.png">
+      <a href="#" class="navbar-brand">PHILIPPINE ONLINE BANKING</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="BANK.html" class="nav-link">HOME</a>
+          </li>
+          <li class="nav-item ml-auto">
+            <a href="LOGiN.html" class="nav-link">LOG OUT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="faq-section container">
+    <h2 class="text-center my-5 text-light">Frequently Asked Questions</h2>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header faq-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link text-white" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              How do I create a new account?
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body faq-body">
+            To create a new account, click on the "Sign Up" button on the homepage and follow the instructions. You will need to provide personal information and verify your identity.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header faq-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link text-white collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How can I reset my password?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body faq-body">
+            To reset your password, click on the "Forgot Password" link on the login page. You will be asked to enter your email address, and we will send you instructions to reset your password.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header faq-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link text-white collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              How do I transfer funds to another account?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body faq-body">
+            To transfer funds, log in to your account and navigate to the "Transfer Funds" section. Follow the prompts to enter the recipient's account details and the amount you wish to transfer.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header faq-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn btn-link text-white collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              What should I do if I suspect fraudulent activity on my account?
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body faq-body">
+            If you suspect fraudulent activity, contact our customer service immediately at 1-800-123-4567. Additionally, you can lock your account through the mobile app or online banking portal to prevent further unauthorized transactions.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

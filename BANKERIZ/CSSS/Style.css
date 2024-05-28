@@ -1,0 +1,77 @@
+body{
+    background-color:rgb(255, 255, 255) ;
+    padding-top: 70px; /* FOR VISIBILITY*/
+    align-content: center;
+  }
+
+  .jumbotron{
+    align-items: center;
+    background-color: #6792DE
+  }
+  .card-body{
+    background-color: rgb(255, 255, 255);
+  }
+  .kulay{
+    color: white;
+  }
+  .logo{
+    width: 2.5pc;
+    height: auto;
+    transform: translateX(-7px);
+  }
+  .footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  .form-group{
+    color: white;
+  }
+  .faq-body {
+    padding: 20px;
+    border: 1px solid #343a40;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+  }
+  .faq-section {
+    padding: 60px 0;
+  }
+  .faq-header {
+    background: #343a40;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+        /* LOG IN DISPLAY */
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        .login-container h2 {
+            margin-bottom: 1.5rem;
+            color: #333;
+        }
+        .login-container .form-label {
+            color: #333;
+        }
+        .login-header {
+            text-align: center;
+            margin-bottom: 5rem;
+            background-color: rgba(255, 255, 255, 0.514); 
+            padding: 4rem;
+            border-radius: 0.5rem;
+        }
+        /* TITTLE BERI BIG*/
+        .login-header h1 {
+            font-size: 5rem;
+            font-weight: bold;
+            color: #333; 
+        }
+        .login-container {
+            text-align: center;
+            font-weight: bold;
+        }
